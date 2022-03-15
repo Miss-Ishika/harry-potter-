@@ -1,0 +1,142 @@
+body{
+    padding: 20px;
+}
+.head{
+    align-items: center;
+    text-decoration: underline;
+    font-family: serif;
+    font-size: 4em;
+    color: rgb(241, 44, 110);
+}
+.nav{
+    border-style: double;
+    border-width: 5px;
+    border-color: rgb(8, 102, 131);
+    width: 1450px;
+    height: 50px;
+    font-size: 30px;
+    font-family: cursive; 
+    color: rgb(8, 102, 131);
+    background-color: rgb(173, 226, 241);
+    border-radius: 20px;
+    padding: 12px;
+    word-spacing: 200px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(238, 14, 14);
+    border-radius: 5px;
+    border-color: black;
+    border-width: 2px;
+}
+.whole{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    background-color: blueviolet;
+    padding: 10px;
+
+}
+.pic{
+    display: grid;
+    -ms-grid-column-align: center;
+    background-color: white;
+    padding: 10px;
+}
+.name{
+    border-radius: 10px;
+    border-color: black;
+    border-width: 5px;
+    font-family: cursive;
+    font-size: 1em;
+    color: black;
+    padding: 20px;
+    background-color: rgb(214, 109, 228);
+}
+.footer{
+    border-width: 5px;
+    border-radius: 5px;
+    border-color: rgb(235, 42, 81);
+    background-color: rgb(236, 120, 144);
+    color: white;
+    font-size: 20px;
+    font-family: cursive;
+
+}
+img{
+    width: 300px;
+    height: 200px;
+}
+@media (max-width: 900px){
+    .nav{
+        border-style: double;
+        border-width: 5px;
+        border-color: rgb(8, 102, 131);
+        font-size: 30px;
+        font-family: cursive; 
+        color: rgb(8, 102, 131);
+        background-color: rgb(173, 226, 241);
+        border-radius: 20px;
+        padding: 12px;
+        word-spacing: 200px;
+        width: 100px;
+        height: 500px;
+        float: left;
+    }
+    nav ul{
+        display: block;
+        list-style: none;
+    }
+    .whole{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        background-color: blueviolet;
+        padding: 10px;
+    }
+    img{
+        width: 250px;
+        height: 100px;
+    }
+}
+        
+
+
+
+@media (max-width: 300px){
+    .nav{
+        border-style: double;
+        border-width: 5px;
+        border-color: rgb(8, 102, 131);
+        font-size: 30px;
+        font-family: cursive; 
+        color: rgb(8, 102, 131);
+        background-color: rgb(173, 226, 241);
+        border-radius: 20px;
+        padding: 12px;
+        word-spacing: 200px;
+        width: 50px;
+        height: 300px;
+        float: left;
+    }
+    nav ul{
+        display: block;
+        list-style: none;
+    }
+    .whole{
+        display: grid;
+        grid-template-columns: 2fr;
+        background-color: blueviolet;
+        padding: 10px;
+    }
+    img{
+        width: 100px;
+        height: 50px;
+    }
+}
+    
+
